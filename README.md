@@ -23,7 +23,9 @@ Make sure to add a `config.js` file in the `config` folder. See the example ther
 Production mode:
 
 ```shell
-npm start
+frontend: cd client && npm start
+backend: cd server && npm start
+database : locally run mongodb 
 ```
 
 Development (Webpack dev server) mode:
